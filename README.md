@@ -1,3 +1,43 @@
+## Requisitos:
+***
+Para que el proyecto pueda ser ejecutado se requiere contar con:
+
+* [PHP](https://www.php.net/downloads): version 8.2.2
+* [Composer](https://getcomposer.org/download/): version 2.5.2
+* [NodeJS](https://nodejs.org/en/download/): version 16.17.1 LTS
+* [NPM](https://docs.npmjs.com/getting-started): version 8.15.0 
+* [MySQL Server](https://dev.mysql.com/downloads/mysql/): version 8.0.32
+
+## Instalación:
+***
+Inicialmente es necesario clonar el repositorio mediante el siguiente comando 
+```
+$ git clone https://github.com/DavidMa1021/VetManager.git
+```
+Dentro del directorio raiz del proyecto se ejecuta los comandos para instalar las dependencias necesarias, en este caso con los comandos:
+```
+$ npm install
+$ composer install
+```
+Es necesario hacer la configuración para la conexión con la Base de Datos, para esto se debe modificar el archivo .env que se encuantra en la raiz del proyecto, asi:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=veterinary
+DB_USERNAME= "nombre_usuario" (sin comillas)
+DB_PASSWORD="password" (sin comillas)
+```
+
+Para correr el proyecto utiliza el comando: 
+```
+$ npm start
+```
+***
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
