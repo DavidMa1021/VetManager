@@ -19,13 +19,13 @@ Dentro del directorio raiz del proyecto se ejecuta los comandos para instalar la
 $ npm install
 $ composer install
 ```
-Es necesario hacer la configuración para la conexión con la Base de Datos, para esto se debe modificar el archivo .env que se encuantra en la raiz del proyecto, asi:
+Es necesario hacer la configuración para la conexión con la Base de Datos, para esto se debe renombrar el archivo "envexample.txt" (que se encuantra en la raiz del proyecto) por ".env", para despues modificar los datos de conexión a la BD asi:
 
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=veterinary
+DB_DATABASE=veterinary 
 DB_USERNAME= "nombre_usuario" (sin comillas)
 DB_PASSWORD="password" (sin comillas)
 ```
