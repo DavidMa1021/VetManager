@@ -30,7 +30,14 @@ DB_USERNAME= "nombre_usuario" (sin comillas)
 DB_PASSWORD="password" (sin comillas)
 ```
 
-Para correr el proyecto utiliza el comando: 
+Adicionalmente se requiere haber creado una base de datos en MySQL con el mismo nombre asignado previamente en el archivo .env. Mediante la terminal con el siguiente comando: 
+```
+CREATE DATABASE veterinary
+    DEFAULT CHARACTER SET = 'utf8mb4';
+```
+O con cualquier otro método como lo puede ser mediante el shell de xampp, incluso desde VSCode a traves de la extension MySQL.
+
+Finalmente para correr el proyecto utiliza el comando: 
 ```
 $ npm start
 ```
